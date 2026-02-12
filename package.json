@@ -3,7 +3,7 @@
   "displayName": "CCUsage - Claude Code Usage Monitor",
   "description": "Display Claude Code usage statistics in the status bar using ccusage",
   "version": "0.0.1",
-  "publisher": "evaneos",
+  "publisher": "fkroockmann",
   "license": "MIT",
   "repository": {
     "type": "git",
