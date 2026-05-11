@@ -79,3 +79,9 @@ This extension is powered by [ccusage](https://github.com/ryoppippi/ccusage), a 
 ## License
 
 [MIT](LICENSE)
+
+## Supply chain protection
+
+This repo pins npm installs to packages published before a fixed date via the `before` directive in `.npmrc`, as a mitigation against npm supply chain attacks (ref INC-227).
+
+**If you need to upgrade dependencies**, update the `before` date in `.npmrc` to a value at most today minus 7 days. This 7-day delay leaves time for the community and automated scanners to detect and unpublish compromised packages before they reach our install.
